@@ -99,6 +99,6 @@ variable "private_network_name" {
 
 variable "private_network_ipv4_subnet" {
   type        = string
-  default     = "192.168.0.0/24"
+  default     = "192.168.0.0/22"
   description = "IPv4 subnet to be used on private network resource"
 }
